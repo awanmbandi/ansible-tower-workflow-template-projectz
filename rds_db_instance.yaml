@@ -1,8 +1,8 @@
 ---
-- name: deploy application database env
+- name: "{{ play_name }}"
   hosts: "{{ hosts }}"
-  # connection  : local
-  gather_facts: false
+  connection  : "{{ connection }}"
+  gather_facts: "{{ gather_facts }}"
   vars_files:
     - variables/vars_rds_db_instance.yaml
   vars:

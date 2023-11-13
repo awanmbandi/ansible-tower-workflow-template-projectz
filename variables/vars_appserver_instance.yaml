@@ -1,7 +1,7 @@
-# # Define variables for the Application/Webserver instance 
-# # Playbook Configuration
-# play_name   : "Wordpress Web Application Server Automation" 
-# hosts       : "localhost"
+# Define variables for the Application/Webserver instance 
+# Playbook Configuration
+play_name   : "Wordpress Web Application Server Automation" 
+hosts       : "localhost"
 gather_facts: "False"
 connection  : "local"
 
