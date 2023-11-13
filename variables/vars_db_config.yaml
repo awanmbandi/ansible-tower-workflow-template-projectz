@@ -1,6 +1,6 @@
-# Playbook Configuration
-play_name : "Deploy Web Application"
-target_host : all
+# # Playbook Configuration
+# play_name : "Deploy Web Application"
+# target_host : all
 become_root : yes
 
 # Task 1 Parameters

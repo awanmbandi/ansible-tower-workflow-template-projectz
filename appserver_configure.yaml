@@ -1,5 +1,5 @@
 ---
-- name  : "{{ play_name }}"
+- name  : deploy and configure web application
   hosts : all
   become: "{{ become_root }}" # Run commands with elevated privileges (e.g., sudo)
   vars_files:
