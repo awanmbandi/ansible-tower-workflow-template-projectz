@@ -1,6 +1,6 @@
 ---
-- name        : deploy application database env
-  hosts       : localhost
+- name: deploy application database env
+  hosts: localhost
   # connection  : local
   gather_facts: false
   vars_files:
