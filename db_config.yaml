@@ -1,7 +1,7 @@
 ---
 - name  : configure application to database integration
   hosts : all
-  become: "{{ become_root }}" # Run commands with elevated privileges (e.g., sudo)
+  become: true # Run commands with elevated privileges (e.g., sudo)
   vars_files:
     - variables/vars_db_config.yaml
 

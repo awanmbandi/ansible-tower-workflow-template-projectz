@@ -1,8 +1,8 @@
 ---
 - name        : deploy application server
   hosts       : localhost
-  connection  : "{{ connection }}"
-  gather_facts: "{{ gather_facts }}"
+  connection  : local
+  gather_facts: false
   vars_files:
     - variables/vars_appserver_instance.yaml
   vars:
