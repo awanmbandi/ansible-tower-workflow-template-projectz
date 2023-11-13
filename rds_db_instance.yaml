@@ -1,7 +1,7 @@
 ---
 - name        : deploy application database env
   hosts       : localhost
-  connection  : local
+  # connection  : local
   gather_facts: false
   vars_files:
     - variables/vars_rds_db_instance.yaml
