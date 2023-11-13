@@ -2,6 +2,9 @@
 pip3 install boto
 pip3 install boto3
 
+### Clone Your Project Repository and Copy All The Project Code To `/var/lib/awx/projects`
+sudo cp -rf ansible-tower-workflow-template-project/* /var/lib/awx/projects
+
 ### Check Playbook Syntax
 ansible-playbook appserver_instance.yaml --syntax-check
 
