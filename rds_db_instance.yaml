@@ -1,6 +1,6 @@
 ---
 - name: deploy application database env
-  hosts: localhost
+  hosts: "{{ hosts }}"
   # connection  : local
   gather_facts: false
   vars_files:
